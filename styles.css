@@ -425,6 +425,9 @@ section {
 
 /* ESTILOS SOLO PARA MOBILE */
 @media(max-width:767px) {
+    *{
+        text-align: center;
+    }
 
     header h1 {
         display: none;
