@@ -208,7 +208,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
-    row-gap: clamp(1.054rem, -0.0015rem + 1.2509vw, 2rem);
+    row-gap: clamp(0.5rem, -3.4774rem + 6.2147vw, 6rem);
     column-gap: clamp(0.527rem, -0.0007rem + 0.6255vw, 1rem);
     justify-items: center;
 }
