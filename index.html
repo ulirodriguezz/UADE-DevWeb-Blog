@@ -15,20 +15,20 @@
         <nav>
             <ul>
                 <li>
-                    <a href="./index.html">Inicio</a>
+                    <a href="#intro">Inicio</a>
                 </li>
                 <li>
-                    <a href="./pages/perfil.html">Articulos</a>
+                    <a href="#articles">Articulos</a>
                 </li>
                 <li>
-                    <a href="./pages/trivia-pages/trivia.html">Contacto</a>
+                    <a href="#contact">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="intro-section">
+        <section class="intro-section" id="intro">
             <h2 class="intro-title">Bienvenido a mi blog personal</h2>
             <p>Este blog personal está dedicado a compartir algunas noticias que me interesan.
                 <br>
@@ -45,114 +45,140 @@
                         <source srcset="./assets/my-photo.jpg" type="image/jpg" media="(min-width: 1024px)">
                         <img src="./assets/my-photo.jpg" alt="Foto de">
                     </picture>
-                    <p> Mi nombre es Ulises Rodriguez, tengo 24 años y soy estudiante de ingeniería informática en UADE.
+                    <p>
+                        Mi nombre es Ulises Rodriguez, tengo 24 años y soy estudiante de Ingeniería Informática en UADE.
+                        Actualmente estoy cursando el quinto año de la carrera, donde he podido profundizar en áreas
+                        como arquitectura de software, bases de datos, desarrollo web y aplicaciones distribuidas.
                         <br>
-                        Me desempeño como desarrollados Fullstack principalmente utilizando Spring Boot y React con
-                        JavaScript y Java como lenguajes. <br>
-                        Acualmente me encuentro cursando el 5to año de la carrera y este blog es un proyecto para la
-                        materia de Desarrollo Web.
+                        Me desempeño como desarrollador Fullstack, con experiencia en la creación de aplicaciones web
+                        utilizando Spring Boot para el backend y React para el frontend, trabajando principalmente con
+                        los lenguajes Java y JavaScript.
+                        <br>
+                        Este blog forma parte de un proyecto académico para la materia Desarrollo Web.
+                        <br>
+                        En esta página se utiliza
+                        flexbox y grids en conjunto con media queries y funciones clamp, además de unidades de medida
+                        relativas, para crear
+                        una pagina responsiva que se adapte a distintos tamaños de pantalla. Ya sea PCs, Tablets o
+                        Moviles.
+                        <br>
+                        A continuación, encontraras una sección de articulos con algunas noticias interesantes y una
+                        sección de contacto
+                        con un formulario para que me dejes un mensaje. Podes navegar a las distintas secciones por
+                        medio del scroll bar o
+                        haciendo click en los titulos del navbar
                     </p>
                 </div>
             </section>
         </section>
-        <section class="artcile-section">
+        <section class="artcile-section" id="articles">
             <header class="section-header">
                 <h3>Articulos</h3>
             </header>
             <div class="article-container">
-                   <article class="article-card">
-                <picture>
-                    <source srcset="./assets/messi-hq.webp" type="image/webp" media="(min-width: 1024px)">
-                    <source srcset="./assets/messi-fhd.jpg" type="image/jpg" media="(min-width: 1024px)">
-                    <img src="./assets/messi-hq.webp" alt="Foto del articulo">
-                </picture>
-                <h2>Comenzó el mundial de clubes</h2>
-                <div class="article-text-div">
-                    <p>
-                        El inter Miami de Leo Messi empato 0-0 contra el Al-Alhy de Egipto en el partido inaugural del novedoso torneo mundial de futbol. <br>
-                        Este torneo contará con la presencia de Boca, que se enfrentará a Benfica en su primer partido, y River que se medirá contra
-                        el Urawa Red Diamonds de Japón.
-                    </p>
-                </div>
-                <span>14/06/2025</span>
+                <article class="article-card">
+                    <picture>
+                        <source srcset="./assets/messi-hq.webp" type="image/webp" media="(min-width: 1024px)">
+                        <source srcset="./assets/messi-fhd.jpg" type="image/jpg" media="(min-width: 1024px)">
+                        <img src="./assets/messi-hq.webp" alt="Foto del articulo">
+                    </picture>
+                    <h2>Comenzó el mundial de clubes</h2>
+                    <div class="article-text-div">
+                        <p>
+                            El inter Miami de Leo Messi empato 0-0 contra el Al-Alhy de Egipto en el partido inaugural
+                            del novedoso torneo mundial de futbol. <br>
+                            Este torneo contará con la presencia de Boca, que se enfrentará a Benfica en su primer
+                            partido, y River que se medirá contra
+                            el Urawa Red Diamonds de Japón.
+                        </p>
+                    </div>
+                    <span>14/06/2025</span>
 
-            </article>
-         
-            <article class="article-card">
-                <picture>
-                    <source srcset="./assets/ps5-fhd.webp" type="image/webp" media="(min-width: 1024px)">
-                    <source srcset="./assets/ps5-lq.jpg" type="image/jpg" media="(min-width: 1024px)">
-                    <img src="./assets/ps5-fhd.webp" alt="Foto del articulo">
-                </picture>
-                <h2>Sony trabaja en la PS6</h2>
-                <div class="article-text-div">  
-                    <p>
-                        A unos pocos años del lanzamiento la PS5, el CEO de Sony confirma que ya se encuentran trabajando en la proxima consola. <br>
-                        Hideaki Nishino fue preguntado acerca del futuro de PlayStation y, si bien no quiso ofrecer
-                         muchos detalles de lo que prepara la compañía con PS6, sí que dejó claras algunas de las intenciones con el sistema.
-                    </p>
-                </div>  
-                <span>13/06/2025</span>
+                </article>
 
-            </article>
-                 <article class="article-card">
-                <picture>
-                    <source srcset="./assets/mastantuono-hq.webp" type="image/webp" media="(min-width: 1024px)">
-                    <source srcset="./assets/mastantuono-small.jpg" type="image/jpg" media="(min-width: 1024px)">
-                    <img src="./assets/mastantuono-small.jpg" alt="Foto del articulo">
-                </picture>
-                <h2>Mastantuono al Real Madrid</h2>
-                <div class="article-text-div">
-                    <p>
-                        La joven promesa de River Plate ejecuta su clausula de recision con River Plate y pasará a jugar al club español. <br>
-                        Se trata de la venta mas cara en la historia del futbol argentino por un monto neto de 45 millones de dolares y una transacción total 
-                        que supera los 60 millones.
-                    </p>
-                </div>
-                <span>10/06/2025</span>
+                <article class="article-card">
+                    <picture>
+                        <source srcset="./assets/ps5-fhd.webp" type="image/webp" media="(min-width: 1024px)">
+                        <source srcset="./assets/ps5-lq.jpg" type="image/jpg" media="(min-width: 1024px)">
+                        <img src="./assets/ps5-fhd.webp" alt="Foto del articulo">
+                    </picture>
+                    <h2>Sony trabaja en la PS6</h2>
+                    <div class="article-text-div">
+                        <p>
+                            A unos pocos años del lanzamiento la PS5, el CEO de Sony confirma que ya se encuentran
+                            trabajando en la proxima consola. <br>
+                            Hideaki Nishino fue preguntado acerca del futuro de PlayStation y, si bien no quiso ofrecer
+                            muchos detalles de lo que prepara la compañía con PS6, sí que dejó claras algunas de las
+                            intenciones con el sistema.
+                        </p>
+                    </div>
+                    <span>13/06/2025</span>
 
-            </article>
-             <article class="article-card">
-                <picture>
-                    <source srcset="./assets/apple-hq.webp" type="image/webp" media="(min-width: 1024px)">
-                    <source srcset="./assets/apple-lq.jpg" type="image/png" media="(min-width: 1024px)">
-                    <img src="./assets/apple-hq.webp" alt="Foto del articulo">
-                </picture>
-                <h2>Apple lanza IoS 18.5</h2>
-                <div class="article-text-div">
-                    <p>
-                        La compañia norteamericana lanza una nueva version del sistema operativo presente en sus dispositivos moviles. <br>
-                        La nueva versión incluye nuevas funcionalidades, cambios en el layout y aspectos.
-                    </p>
-                </div>
-                <span>13/05/2025</span>
+                </article>
+                <article class="article-card">
+                    <picture>
+                        <source srcset="./assets/mastantuono-hq.webp" type="image/webp" media="(min-width: 1024px)">
+                        <source srcset="./assets/mastantuono-small.jpg" type="image/jpg" media="(min-width: 1024px)">
+                        <img src="./assets/mastantuono-small.jpg" alt="Foto del articulo">
+                    </picture>
+                    <h2>Mastantuono al Real Madrid</h2>
+                    <div class="article-text-div">
+                        <p>
+                            La joven promesa de River Plate ejecuta su clausula de recision con River Plate y pasará a
+                            jugar al club español. <br>
+                            Se trata de la venta mas cara en la historia del futbol argentino por un monto neto de 45
+                            millones de dolares y una transacción total
+                            que supera los 60 millones.
+                        </p>
+                    </div>
+                    <span>10/06/2025</span>
 
-            </article>
-            <article class="article-card">
-                <picture>
-                    <source srcset="./assets/gta6-hq.webp" type="image/webp" media="(min-width: 1024px)">
-                    <source srcset="./assets/gta6-fhd.jpg" type="image/jpg" media="(min-width: 1024px)">
-                    <img src="./assets/gta6-hq.webp" alt="Foto del articulo">
-                </picture>
-                <h2>Nuevo trailer de GTA VI</h2>
-                <div class="article-text-div">
-                    <p>
-                        El famoso juego de Rockstar Games lanza su segundo trailer para el juego más esperado del siglo. <br>
-                        Luego de atrazar la salida del videojuego, la compañia soltó al publico un nuevo trailer capturado en PS5.<br>
-                        Se trata de la 6ta entrega de una de las franquicias más populares de la industria de los videojeugos con un costo de produccion superior
-                        al billon de dolares.
-                    </p>
-                </div>
-                <span>06/05/2025</span>
+                </article>
+                <article class="article-card">
+                    <picture>
+                        <source srcset="./assets/apple-hq.webp" type="image/webp" media="(min-width: 1024px)">
+                        <source srcset="./assets/apple-lq.jpg" type="image/png" media="(min-width: 1024px)">
+                        <img src="./assets/apple-hq.webp" alt="Foto del articulo">
+                    </picture>
+                    <h2>Apple lanza IoS 18.5</h2>
+                    <div class="article-text-div">
+                        <p>
+                            La compañia norteamericana lanza una nueva version del sistema operativo presente en sus
+                            dispositivos moviles. <br>
+                            La nueva versión incluye nuevas funcionalidades, cambios en el layout y aspectos.
+                        </p>
+                    </div>
+                    <span>13/05/2025</span>
 
-            </article>
-           
+                </article>
+                <article class="article-card">
+                    <picture>
+                        <source srcset="./assets/gta6-hq.webp" type="image/webp" media="(min-width: 1024px)">
+                        <source srcset="./assets/gta6-fhd.jpg" type="image/jpg" media="(min-width: 1024px)">
+                        <img src="./assets/gta6-hq.webp" alt="Foto del articulo">
+                    </picture>
+                    <h2>Nuevo trailer de GTA VI</h2>
+                    <div class="article-text-div">
+                        <p>
+                            El famoso juego de Rockstar Games lanza su segundo trailer para el juego más esperado del
+                            siglo. <br>
+                            Luego de atrazar la salida del videojuego, la compañia soltó al publico un nuevo trailer
+                            capturado en PS5.<br>
+                            Se trata de la 6ta entrega de una de las franquicias más populares de la industria de los
+                            videojeugos con un costo de produccion superior
+                            al billon de dolares.
+                        </p>
+                    </div>
+                    <span>06/05/2025</span>
+
+                </article>
+
 
             </div>
 
         </section>
 
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
             <div class="contact-form-container">
                 <form action="submit" class="contact-form">
                     <h2>Contactate conmigo!</h2>
@@ -174,23 +200,26 @@
                 </form>
                 <div class="contact-info-div">
                     <h3>Información de contacto</h4>
-                    <div class="contact-item">
-                        <img src="./assets//mail.png" alt="Icono">
-                        <span>ulirodrigueze@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <img src="./assets/phone.png" alt="Icono">
-                        <span>+54 9 1130150582</span>
-                    </div>
-                    <div class="contact-item">
-                        <img src="./assets/linkedin.png" alt="Icono">
-                        <span>Mi Linkedin</span>
-                    </div>
+                        <div class="contact-item">
+                            <img src="./assets//mail.png" alt="Icono">
+                            <span>ulirodrigueze@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <img src="./assets/phone.png" alt="Icono">
+                            <span>+54 9 1130150582</span>
+                        </div>
+                        <div class="contact-item">
+                            <img src="./assets/linkedin.png" alt="Icono">
+                            <span>Mi Linkedin</span>
+                        </div>
                 </div>
             </div>
         </section>
 
     </main>
+    <footer class="blog-footer">
+        <p>&copy; Blog Personal de Ulises Rodriguez — Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 
